@@ -1,4 +1,4 @@
-# Toxic Comments Classification in Natural Language Processing
+# :right_anger_bubble:Toxic Comments Classification in Natural Language Processing
 
 This project creates a classifier that is able to categorize comments into 6 categories i.e. Toxic, Severe Toxic, Threat, Insult, Obscene, and Identity Hate. We will be using multiple ML methods as a means of learning how to apply those ML methods and also to find out the best methods. 
 The kaggle dataset can be found [here](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data)
