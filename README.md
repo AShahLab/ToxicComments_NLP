@@ -6,41 +6,41 @@ The kaggle dataset can be found [here](https://www.kaggle.com/c/jigsaw-toxic-com
 ## Table of Contents
 The following topics will be covered:
 
-1\. Part 1: Core ML Classification Methods
+### 1\. Part 1: Core ML Classification Methods
   - Basic Logistic Regression with CV
   - MultiLabel K-Neighbors Classification
   - Decision Tree Classification
   - Gradient Boosting with XGBoost and Stratified K-Fold CV
   - Naive Bayes with Multilabels
 
-2\. Part 2: Deep Learning for Toxic Text Classification
+### 2\. Part 2: Deep Learning for Toxic Text Classification
   - Binary N-Gram with TF-IDF Vectorization
   - Bi-Directional LSTM
   - GLOVE Pre-Trained Word Embeddings
   - Transformers with Positional encoding in Keras
-3\. Conclusion
+### 3\. Conclusion
 
 
-### Tools Used:
+## Tools Used:
 
 * Tensorflow 2.3
 * Python 3.8
 * Google Colab
 
-
-## Part 1 Takeaways
+## Takeaways
+### Part 1 Takeaways
 
 * Requires some text preprocessing
 * After some EDA, we realize the data is extremely imbalanced. Our models work on finding ways to overcome that problem.
 * The best method in this sections seems to be a Logistic Regression based on ROC AUC.
 
-## Part 2 Takeaways
+### Part 2 Takeaways
 
 * Text preprocessing easily managed
 * Text embeddings are great if you have small amount of data
 * Difference between N-Gram models and Sequence models
 
-## Project Takeaway
+### Project Takeaway
 
 * Occam's razor: Sometimes the simplest method with minimal complexity is the best method
 
